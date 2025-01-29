@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Communications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+        h2 {
+            color: #34495e;
+        }
+        .service-box {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2c3e50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vivek Communications</h1>
+        <p>Streamlining Communication in Healthcare</p>
+    </header>
+
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>At Vivek Communications, we specialize in providing seamless communication support for Laboratories, Home Health Care facilities, and Medical Billing services. With extensive experience and a commitment to excellence, we ensure that every communication is timely and efficient, helping organizations focus on what matters most – patient care.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+
+        <div class="service-box">
+            <h3>Laboratory Services</h3>
+            <ul>
+                <li>Answering phone calls from facilities</li>
+                <li>Calling facilities about service delays</li>
+                <li>Sending emails and faxes</li>
+                <li>Communicating with phlebotomists and handling supplies</li>
+                <li>Notifying facilities about critical results</li>
+            </ul>
+        </div>
+
+        <div class="service-box">
+            <h3>Home Health Care Services</h3>
+            <ul>
+                <li>Intake, scheduling, and deficiency coordination</li>
+                <li>Invoice/payment posting and communication with healthcare staff</li>
+                <li>Experience with Kinnser, Devero, Axxess platforms</li>
+                <li>Efficient communication with RN, PT, OT, HHA, MSW, ST, and office staff</li>
+            </ul>
+        </div>
+
+        <div class="service-box">
+            <h3>Medical Billing Services</h3>
+            <ul>
+                <li>Demographic entries and charge posting</li>
+                <li>Payment posting and AR management</li>
+                <li>Appeals to insurance companies</li>
+                <li>RA and AR follow-up</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Vivek Communications | All rights reserved</p>
+    </footer>
+</body>
+</html>
